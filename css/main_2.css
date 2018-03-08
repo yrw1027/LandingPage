@@ -6,7 +6,7 @@ body {
     background: #ffffff !important;
 }
 
-html, h1, h2, h3, h4, h5, h6, a {
+html, h1, h2, h3, h4, h5, h6, a, button {
     font-family: 'Lato', sans-serif;
 }
 
@@ -83,7 +83,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .description p {
     color: #666;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 1.5;
     /*
     text-align: center;
@@ -94,6 +94,11 @@ html, h1, h2, h3, h4, h5, h6, a {
     border: 2px solid #1f3349;
     color: #1f3349;
     background: #fff;
+    margin: 16px;
+}
+
+.description form{
+    font-size: 18px;
 }
 
 .footnote p {
